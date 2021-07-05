@@ -29,7 +29,7 @@ public interface SongDao {
 
 	/**
 	 * 批量删除，根据数组里面的Id删除对应的歌曲
-	 * @param userIds
+	 * @param songIds
 	 */
 	void deleteByIds(int[] songIds);
 
